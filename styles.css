@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -15,4 +20,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.home-content {
+    background-color: #fef9c3;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90vh;
 }
