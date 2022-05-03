@@ -7,10 +7,11 @@ export function createHeader() {
 
     let title = document.createElement("h1");
     title.classList.add("title");
-    title.textContent = "Best Burgers NA";
+    title.textContent = "Burger Town";
     header.appendChild(title);
 
     let tabs = document.createElement("div");
+    tabs.classList.add("tabs");
     let homeButton = document.createElement("button");
     homeButton.textContent = "Home";
     let menuButton = document.createElement("button");
