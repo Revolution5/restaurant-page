@@ -91,3 +91,26 @@ body {
     height: 80vh;
     background-color: #fef9c3;
 }
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.phone, .email, .address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone > h2, .email > h2, .address > h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
